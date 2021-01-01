@@ -46,7 +46,7 @@ game_on = 'Y'
 while game_on == 'Y':
     index = get_index()
     value = get_value(index)
-    update_list(index,value)
+    my_list = update_list(index,value)
     disp(my_list)
     game_on = play_again()
 
